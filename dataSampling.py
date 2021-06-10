@@ -16,7 +16,7 @@ data = df["reading_time"].tolist()
 
 
 
-fig = ff.create_distplot([data], ["reading_time"], show_hist = false)
+fig = ff.create_distplot([data], ["reading_time"], show_hist = False)
 fig.show()
 
 
